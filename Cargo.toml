@@ -7,7 +7,9 @@ edition = "2018"
 
 [dependencies]
 bytes = "0.4"
-prost = "0.5"
+prost = "0.13.5"
+prost-types = "0.13.5"
+prost-reflect = {version = "0.15.0", features = ["text-format"]}
 
 [build-dependencies]
-prost-build = "0.5"
+prost-build = "0.13.5"

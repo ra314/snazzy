@@ -1,0 +1,4 @@
+# proto-file: items.proto
+# proto-message: Shirt
+color: "blue"
+size: SMALL

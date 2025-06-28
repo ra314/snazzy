@@ -1,15 +1,10 @@
 syntax = "proto3";
 
 package snazzy.items;
+import "proto/common.proto";
 
 // A snazzy new shirt!
 message Shirt {
-  enum Size {
-    SMALL = 0;
-    MEDIUM = 1;
-    LARGE = 2;
-  }
-
   string color = 1;
-  Size size = 2;
+  snazzy.proto.common.Size size = 2;
 }
